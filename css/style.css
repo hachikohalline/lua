@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    background-image: url(https://bit.ly/3wezW8a);
+    background-repeat: no-repeat;
+    /* centralizar horizontal, vertical */
+    background-position-x: center;
+    /* altura do body pegando 100% da janela */
+    /* vh = viewport heigh, vw = viewport width */
+    height: 100vh;
+    /* tamanho da imagem */
+    background-size: 500px;
+    /* fixar imagem de fundo */
+    background-attachment: fixed;
+    background-color: darkviolet;
+    
+}
+
+h1 {
+    color: red;
+
+}
+/* sempre que usar identificador tem que usar # */
+#green{
+    color: aqua;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#blue{
+    color: blue;
+    font-style: italic;
+}
+
+/* quando é id é # quando é classe é . */
+.coisa{
+    color: darkmagenta;
+    font-size: 24px;
+    font-weight: 100;
+}
+/* css na mesma ordem que o html */
